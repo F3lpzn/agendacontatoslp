@@ -1,0 +1,26 @@
+p {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+h1 {
+    color: #000000;
+    text-align: center;
+    margin-top: 20px;
+}
+h2 {
+    color: #2196F3;
+    margin-top: 20px;
+}
+#container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #000000;
+}
+#filter {
+    margin-top: 20px;
+}
