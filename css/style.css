@@ -1,26 +1,91 @@
-p {
-    font-family: Arial, sans-serif;
-    color: #333;
-    line-height: 1.6;
-    margin-bottom: 15px;
-}
-h1 {
-    color: #000000;
-    text-align: center;
-    margin-top: 20px;
-}
-h2 {
-    color: #2196F3;
-    margin-top: 20px;
-}
-#container {
-    width: 80%;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    background-color: #000000;
-}
-#filter {
-    margin-top: 20px;
-}
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #F2F2F2;
+        }
+
+        h1 {
+            color: #656565;
+            text-align: center;
+            font-size: 48px;
+            font-style: bold;
+        }
+        h2 {
+            color: #656565;
+            font-size: 24px;
+        }
+
+        #container {
+            background: #F2F2F2;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            max-width: 60%;
+            margin-bottom: 20px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #filters {
+            background: #F2F2F2;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            max-width: 60%;
+            margin-bottom: 20px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            color: #656565;
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+        input[type="text"],
+        input[type="tel"],
+        input[type="email"] {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            box-sizing: border-box;
+        }
+
+        button {
+            margin-top: 15px;
+            padding: 10px 15px;
+            background-color: #D2D3DC;
+            color:#559EF8;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: #AFB1BE;
+        }
+
+        #contato-lista {
+            margin-top: 20px;
+            max-width: 60%;
+            margin-left: auto; 
+            margin-right: auto;
+            background: #F2F2F2;
+            border-radius: 5px;
+        }
+
+        .contato {
+            background: #F2F2F2;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+            font-size: 20px;
+        }
+
+        .contato:last-child {
+            border-bottom: none;
+        }

@@ -5,97 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Agenda de Contatos</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #F2F2F2;
-        }
-
-        h1 {
-            color: #656565;
-            text-align: center;
-            font-size: 48px;
-            font-style: bold;
-        }
-        h2 {
-            color: #656565;
-            font-size: 24px;
-        }
-
-        #container {
-            background: #F2F2F2;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-            max-width: 60%;
-            margin-bottom: 20px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        #filters {
-            background: #F2F2F2;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-            max-width: 60%;
-            margin-bottom: 20px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        label {
-            display: block;
-            margin-top: 10px;
-            color: #656565;
-            font-weight: bold;
-            font-size: 24px;
-        }
-
-        input[type="text"],
-        input[type="tel"],
-        input[type="email"] {
-            width: 100%;
-            padding: 8px;
-            margin-top: 5px;
-            box-sizing: border-box;
-        }
-
-        button {
-            margin-top: 15px;
-            padding: 10px 15px;
-            background-color: #D2D3DC;
-            color:#559EF8;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-            font-weight: bold;}
-
-        button:hover {
-            background-color: #AFB1BE;
-        }
-
-        #contato-lista {
-            margin-top: 20px;
-            max-width: 60%;
-            margin-left: auto; 
-            margin-right: auto;
-            background: #F2F2F2;
-            border-radius: 5px;
-        }
-
-        .contato {
-            background: #fff;
-            padding: 10px;
-            border-bottom: 1px solid #ddd;
-        }
-
-        .contato:last-child {
-            border-bottom: none;
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -129,10 +39,7 @@
         <h2>📋 Lista de Contatos</h2>
         <button onclick="ordenarContatos()">Ordenar por Nome</button>
     </div>
-    <div id="contato-lista">
-        <!-- Contatos serão exibidos aqui -->
-        <h2>Resultado de pesquisa</h2>
-    </div>
+    <div id="contato-lista"></div>
 
 <script src="js/body.js"></script>
 
